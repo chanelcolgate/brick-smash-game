@@ -53,8 +53,8 @@ end
 // vertical position counter
 always @(posedge clk) begin
 	vsync <= (vpos >= V_SYNC_START && vpos <= V_SYNC_END);
-	if (vmaxxed)
-		if (hmaxxed)
+	if (hmaxxed)
+		if (vmaxxed)
 			vpos <= 0;
 		else
 			vpos <= vpos + 1;
