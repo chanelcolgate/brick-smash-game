@@ -1,5 +1,6 @@
 `include "scoreboard.v"
 `include "hvsync_generator.v"
+`include "digits10.v"
 
 module scoreboard_top(clk, reset, hsync, vsync, rgb);
 input clk, reset;
