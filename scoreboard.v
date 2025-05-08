@@ -67,3 +67,4 @@ digits10_array digits(
 
 assign board_gfx = score_bits[hpos[4:2] ^ 3'b111];
 endmodule
+`endif

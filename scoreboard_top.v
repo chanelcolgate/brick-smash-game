@@ -18,7 +18,7 @@ hvsync_generator hvsync_gen(
 	.reset(reset),
 	.hsync(hsync),
 	.vsync(vsync),
-	.disdplay_on(display_on),
+	.display_on(display_on),
 	.hpos(hpos),
 	.vpos(vpos)
 );
