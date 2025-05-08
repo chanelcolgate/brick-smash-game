@@ -55,7 +55,7 @@ always @(*) begin
 
 		7'o50: bits = 5'b11111;
 		7'o51: bits = 5'b10000;
-		7'052: bits = 5'b11111;
+		7'o52: bits = 5'b11111;
 		7'o53: bits = 5'b00001;
 		7'o54: bits = 5'b11111;
 
@@ -90,7 +90,7 @@ end
 endmodule
 
 module digits10_array(digit, yofs, bits);
-input [3:0] digits; // digit 0-9
+input [3:0] digit; // digit 0-9
 input [2:0] yofs; // vertical offset (0-4)
 output [4:0] bits; // output (5-bits)
 
