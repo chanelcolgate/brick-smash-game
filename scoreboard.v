@@ -20,7 +20,7 @@ input declives;
 always @(posedge inscore or posedge reset) begin
 	if (reset) begin
 		score0 <= 0;
-		score1 <= 1;
+		score1 <= 0;
 	end else if (score0 == 9) begin
 		score0 <= 0;
 		score1 <= score1 + 1;
